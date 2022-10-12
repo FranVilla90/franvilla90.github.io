@@ -1,16 +1,11 @@
-@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
-
-
 body {
     font-family: 'Times New Roman', Times, serif;
-    background: #131315;
-}
-
-
+    background-color: darkblue;
+  }
 
   #cabecera {
     display:flex;
-    
+    width: 100%;
     padding: 0;
     margin: 0;
     background-color: #d9dbf1;
@@ -22,19 +17,12 @@ body {
 
   #cabecera .logo h1 img {
     float: left;
-    max-width: 300px;
-    max-height: 115px;
-    margin-left: 12px;
-    background-color: #CD5C5C;
+    width: 200px;
+    margin: 1px;
   }
 
-  #cabecera .social  {
-    background-color: blueviolet;
-    float: right;
-  }
   #cabecera .social img{
 
-    background-color: aqua;
     float: right;
     width: 100px;
     margin-right: 1px;
